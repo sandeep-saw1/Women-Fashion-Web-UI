@@ -1,5 +1,9 @@
 import React from "react";
-import { fashionProducts } from "./fashionData";
+
+import { fashionProducts } from "./FashionData.jsx";
+import data from "./FashionData.jsx";
+
+
 
 const OurProductCards = ({ filter }) => {
   const filtered = fashionProducts.filter((prod) => prod.category === filter);
